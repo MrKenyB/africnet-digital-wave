@@ -10,7 +10,7 @@ import {
   ShoppingBag,
   Smartphone, 
   HardDrive, 
-  Tool, 
+  Wrench, 
   CameraIcon,
   Monitor, 
   PhoneCall, 
@@ -55,7 +55,7 @@ const Services = () => {
       description: "Nos services de maintenance informatique assurent le bon fonctionnement de vos équipements et systèmes.",
       features: [
         {
-          icon: <Tool size={20} />,
+          icon: <Wrench size={20} />,
           title: "Diagnostic",
           description: "Identification rapide et précise des problèmes informatiques de votre matériel ou logiciel."
         },
@@ -215,3 +215,4 @@ const Services = () => {
 };
 
 export default Services;
+
