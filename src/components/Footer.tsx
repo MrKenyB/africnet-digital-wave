@@ -104,7 +104,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-africanet-orange mr-3 mt-1 flex-shrink-0" />
                 <span className="text-white/80">
-                  123 Rue Principale<br />Dakar, Sénégal
+                  123 Rue Principale<br />Pointe-Noire, Congo
                 </span>
               </li>
               <li className="flex items-center">
