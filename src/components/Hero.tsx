@@ -1,7 +1,7 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import VideoPresentation from './VideoPresentation';
 
 const Hero = () => {
   return (
@@ -24,8 +24,6 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-
-        <VideoPresentation />
         
         <div className="container mx-auto px-6 mt-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
