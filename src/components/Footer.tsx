@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
@@ -110,7 +109,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-africanet-orange mr-3 flex-shrink-0" />
-                <span className="text-white/80">+221 78 123 45 67</span>
+                <span className="text-white/80">+242 068 102 023</span>
+              </li>
+              <li className="flex items-center">
+                <Phone className="h-5 w-5 text-africanet-orange mr-3 flex-shrink-0" />
+                <span className="text-white/80">+242 040 120 016</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-africanet-orange mr-3 flex-shrink-0" />

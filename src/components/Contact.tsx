@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -65,7 +64,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-5 w-5 text-africanet-orange" />,
       title: "Téléphone",
-      details: ["+221 78 123 45 67", "+221 33 456 78 90"]
+      details: ["+242 068 102 023", "+242 040 120 016"]
     },
     {
       icon: <Mail className="h-5 w-5 text-africanet-orange" />,
