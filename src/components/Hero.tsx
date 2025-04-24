@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import VideoPresentation from './VideoPresentation';
 
 const Hero = () => {
   return (
@@ -24,37 +24,39 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-      </div>
-      
-      <div className="container mx-auto px-6 mt-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            {
-              title: 'Sites Web',
-              description: 'Sites vitrines et e-commerce adaptés à vos besoins',
-              icon: '🌐'
-            },
-            {
-              title: 'Maintenance IT',
-              description: 'Support technique et maintenance de vos systèmes',
-              icon: '🛠️'
-            },
-            {
-              title: 'Formations',
-              description: 'Formations adaptées pour tous les niveaux',
-              icon: '📚'
-            }
-          ].map((item, index) => (
-            <div 
-              key={index}
-              className="bg-white rounded-xl shadow-lg p-6 transform transition-all hover:-translate-y-2 hover:shadow-xl"
-              style={{ animationDelay: `${0.3 + index * 0.1}s` }}
-            >
-              <div className="text-4xl mb-4">{item.icon}</div>
-              <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-              <p className="text-gray-600">{item.description}</p>
-            </div>
-          ))}
+
+        <VideoPresentation />
+        
+        <div className="container mx-auto px-6 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Sites Web',
+                description: 'Sites vitrines et e-commerce adaptés à vos besoins',
+                icon: '🌐'
+              },
+              {
+                title: 'Maintenance IT',
+                description: 'Support technique et maintenance de vos systèmes',
+                icon: '🛠️'
+              },
+              {
+                title: 'Formations',
+                description: 'Formations adaptées pour tous les niveaux',
+                icon: '📚'
+              }
+            ].map((item, index) => (
+              <div 
+                key={index}
+                className="bg-white rounded-xl shadow-lg p-6 transform transition-all hover:-translate-y-2 hover:shadow-xl"
+                style={{ animationDelay: `${0.3 + index * 0.1}s` }}
+              >
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                <p className="text-gray-600">{item.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
