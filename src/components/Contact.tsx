@@ -239,7 +239,7 @@ const Contact = () => {
             
             <div className="mt-8 h-64 rounded-lg overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123857.52609549382!2d-17.552278906249982!3d14.716679199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f5b3c5bb71%3A0xb17c17d92d5db21f!2sDakar%2C%20Senegal!5e0!3m2!1sen!2sus!4v1620796534267!5m2!1sen!2sus!4v1620796534267!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63901.27312478385!2d11.866044799999999!3d-4.7941992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6f0e989a7a5d75%3A0x41b582f09087be88!2sPointe-Noire%2C%20Congo!5e0!3m2!1sfr!2scg!4v1714645672468!5m2!1sfr!2scg"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
